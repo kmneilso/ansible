@@ -1,0 +1,8 @@
+---
+# handlers file for helloworld.js
+
+- name: restart helloworld
+  service:
+    name: helloworld
+    state: restarted
+
